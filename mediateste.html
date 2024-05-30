@@ -1,0 +1,29 @@
+<!doctype html>
+<html> 
+ <head></head> 
+ <body>  
+
+    <h2>MEDIA DE VALORES</h2>
+
+    <input type="number" id="n1">
+    <input type="number" id="n2">
+    <input type="number" id="n3">
+
+    <button onclick="calcular()">calcular</button>
+
+    <script>
+        function calcular(){
+
+            var n1 = document.getElementById('n1').value;
+            var n2 = document.getElementById('n2').value;
+            var n3 = document.getElementById('n3').value;
+
+            var media = (Number(n1) + Number(n2) + Number(n3)) /3
+
+
+            alert(`a media dos valores e: ${media}`)
+        }
+
+    </script>
+ </body>
+</html>
